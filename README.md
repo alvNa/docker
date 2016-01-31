@@ -1,5 +1,5 @@
-# docker - First steps
-========
+# docker - First steps #
+
 Example of creating a oracle container using a docker file
 
 - 1) Go to https://www.docker.com/products/docker-toolbox
@@ -22,14 +22,15 @@ Example of creating a oracle container using a docker file
   We need to know the generated ip by the virtual machine for acces to oracle express.
   One we've finished this steps a new container of Oracle express with a little database is ready for us. If we want to access to the database we can use a datebase manager like Dbeaver(http://dbeaver.jkiss.org/) or SQLDeveloper (http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html).
 -9) Run the database manager and connect to the database.
-  Use the following parameters:
+  > Use the following parameters:
   * Host: our ip
   * Port: 1521
   * Database schema: xe
   * User: system
   * Password: oracle
 
-========
-http://www.adictosaltrabajo.com/tutoriales/docker-for-dummies/
-http://www.adictosaltrabajo.com/tutoriales/docker-para-bases-de-datos/
-http://www.adictosaltrabajo.com/tutoriales/docker-compose-machine-y-swarm/
+##References##
+
++ http://www.adictosaltrabajo.com/tutoriales/docker-for-dummies/
++ http://www.adictosaltrabajo.com/tutoriales/docker-para-bases-de-datos/
++ http://www.adictosaltrabajo.com/tutoriales/docker-compose-machine-y-swarm/
